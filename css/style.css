@@ -317,6 +317,7 @@ h2 {
 }
 
 @media only screen and (max-width: 960px) {
+
 	.desktop-nav {
 	display:none;
 	}
@@ -408,9 +409,34 @@ padding: 10px;
 		padding-bottom: 20px;
 	}
 
-	
+
 }
 
+@media only screen and (max-width: 600px) {
+
+	.coffee-img {
+		padding: 10px;
+	}
+
+	.description {
+		padding: 20px;
+	}
+
+	.gallery {
+		padding: 20px;
+	}
+
+	.big-event {
+
+		background-color: #eee;
+
+	}
+
+	.menu-column {
+		margin: 10px;
+	}
+
+}
 
 
 
