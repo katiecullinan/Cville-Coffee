@@ -25,21 +25,12 @@
 
 
 
-	<nav>
-	<ul class="nav">
-			<li><a href="#landing-page">CVILLE COFFEE</a></li>
-			<li><a href="#about-page">ABOUT</a></li>
-			<li><a href="#coffee-page">COFFEE</a></li>
-			<li><a href="#menu-page">MENU</a></li>
-			<li><a href="#events-page">EVENTS</a></li>
-			<li><a href="#footer">CONTACT</a></li>
-			
-			
-		</ul>
-	</nav>
+
 		
 	<div class="mobile-nav">
 		<img class="nav-button" src="img/mobile-nav.png" alt="Mobile Navigation">
+
+	</div>
 	<ul class="mobile-nav-list">
 			<li><a href="#landing-page">CVILLE COFFEE</a></li>
 			<li><a href="#about-page">ABOUT</a></li>
@@ -50,13 +41,29 @@
 			
 			
 		</ul>
-	</div>
+	
 
 <img class="logo-img" src="img/logo.png" alt="C'Ville Coffee">
+
+
 
 <img class="triangle" src="img/triangle.png" alt="Scroll">
 
 </section>
+
+<nav class="desktop-nav">
+	<ul class="nav">
+			<li><a href="#landing-page">CVILLE COFFEE</a></li>
+			<li><a href="#about-page">ABOUT</a></li>
+			<li><a href="#coffee-page">COFFEE</a></li>
+			<li><a href="#menu-page">MENU</a></li>
+			<li><a href="#events-page">EVENTS</a></li>
+			<li><a href="#footer">CONTACT</a></li>
+			
+			
+		</ul>
+</nav>
+
 
 <section id="about-page" class="about-container clearfix">
 
@@ -83,13 +90,14 @@
 <section id="coffee-page" class="coffee-container clearfix">
 	<div class="gallery">
 
+	<div class="top-row">
+
 	<img class="coffee-img switch" src="img/coffee.png" alt="Coffee" >
-
-	
-
 	<img class="coffee-img switch2" src="img/latte.png" alt="Latte">
 	<img class="coffee-img switch3" src="img/cappucino.png" alt="Cappucino">
 	<img class="coffee-img switch4" src="img/espresso.png" alt="Espresso">
+	</div>
+
 	<img class="coffee-img switch5" src="img/americano.png" alt="Americano">
 	<img class="coffee-img switch6" src="img/mocha.png" alt="Mocha Latte">
 	<img class="coffee-img switch7" src="img/chai.png" alt="Chai Latte">
@@ -108,7 +116,7 @@
 				<p> Two eggs on an organic bagel (plain or wheat) or wheat wrap <span class="price">6.50</span></p>
 				<p>ADD: Salami, Salsa, Roasted Red Peppers, Bacon, Baked Ham, or Cheese <span class="price">.75</span></p>
 				<p>Bagel with Cream Cheese <span class="price">2.10</span></p>
-				<p>Bagel with Jam<span class="price">1.70</span></p>
+				<p>Bagel with Jam <span class="price">1.70</span></p>
 			<h2>Breakfast Burritos</h2>
 				<p>Mexican- Eggs with melted cheddar cheese, salsa, sautéed green bell pepper, onions, and sour cream <span class="price">7.90</span> </p>
 				<p>Ham &amp; eggs- Eggs with baked ham, melted cheddar cheese, sautéed green bell peppers, and onions <span class="price">7.90</span> </p>
@@ -150,10 +158,10 @@
 	</div>
 </section>
 
-<section class="picture-break">
 
 
-</section>
+<img class="picture-break" src="img/coffee-banner.jpg" alt="Coffee Banner">
+
 
 <section id="events-page" class="event-container clearfix">
 
@@ -236,9 +244,16 @@
 
 <script src="js/stickUp.min.js"></script>
 
-  
+<script type="text/javascript">
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.desktop-nav').stickUp();
+                });
+              }); </script>
 
-  <script>
+  
+<script>
 $("#breakfast-title").click(function(){
   $(".breakfast-menu").toggle();
 }); 
