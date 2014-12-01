@@ -42,7 +42,7 @@ h2 {
 	width: 35%;
 	margin: 0 auto 0 auto;
 	display: block;
-	padding-top: 160px;
+	padding-top: 100px;
 }
 .triangle {
 	width: 30px;
@@ -269,6 +269,24 @@ h2 {
 .small-text {
 	
 	font-style: italic;
+}
+
+.link-to-top {
+	padding: 0 auto 20px auto;
+}	
+
+.link-to-top a{
+	color: white;
+	text-decoration: none;
+	
+	padding: 10px;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+
 }
 
 /* Footer */
