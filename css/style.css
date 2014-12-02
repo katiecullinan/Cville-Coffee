@@ -118,11 +118,22 @@ h2 {
 }
 .cville-map img{
 	padding: 40px;
-	width: 100%;
+	width: 90%;
 	opacity: .9;
 	
 }
 
+.cville-map a:hover {
+	opacity: .4;
+}
+
+.cville-map img:hover{
+	
+	opacity: .6;
+}
+.mobile-map {
+	display: none;
+}	
 
 /* Cofee Page */
 
@@ -220,6 +231,7 @@ h2 {
 	min-height: 300px;
 
 	width: 100%;
+	margin-bottom: -5px;
 
 }
 
@@ -271,23 +283,7 @@ h2 {
 	font-style: italic;
 }
 
-.link-to-top {
-	padding: 0 auto 20px auto;
-}	
 
-.link-to-top a{
-	color: white;
-	text-decoration: none;
-	
-	padding: 10px;
-	display: block;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 20px;
-	font-style: italic;
-	text-align: center;
-
-}
 
 /* Footer */
 
@@ -316,6 +312,32 @@ h2 {
 .dayoftheweek {
 	font-weight: 700;
 }
+
+.link-to-top {
+
+	text-align: right;
+	padding-bottom: 40px;
+}
+
+.link-to-top a{
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 10px 24px; 
+	margin: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+
+	text-align: center;
+
+}
+
+.link-to-top a:hover {
+	
+	color: #DAACA1;
+}
+
 
 .mobile-nav {
 	display:none;
@@ -388,6 +410,28 @@ padding: 10px;
 	.map {
 		display: none;
 	}
+
+	.mobile-map {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.25em;
+		color: white;
+		width: 24%;
+		background-color: black;
+		font-style: italic;
+		padding: 20px 40px;
+		margin: 10px auto;
+	} 
+
+	.mobile-map:hover {
+		color: #DAACA1;
+	}
+
+
+
+
 
 	.coffee-img {
 		width: 50%;
