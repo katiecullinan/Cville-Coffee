@@ -486,6 +486,7 @@ padding: 10px;
 
 	.description {
 		padding: 20px;
+		margin-top: 0px;
 	}
 
 	.gallery {
@@ -511,6 +512,14 @@ padding: 10px;
 
 	.small-text {
 		padding: 0;
+	}
+
+	.event-info p {
+		padding: 10px 0;
+	}
+
+	.triangle {
+		padding-top: 50px;
 	}
 
 }
