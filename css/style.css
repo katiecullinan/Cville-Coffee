@@ -400,7 +400,7 @@ padding: 10px;
 	}	
 
 	.logo-img {
-		width: 60%;
+		width: 75%;
 	}
 	.description {
 		width: 100%;
@@ -418,12 +418,16 @@ padding: 10px;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 1.25em;
 		color: white;
-		width: 24%;
+		width: 50%;
 		background-color: black;
 		font-style: italic;
 		padding: 20px 40px;
 		margin: 10px auto;
 	} 
+
+	.mobile-map a{
+		text-align: center;
+	}	
 
 	.mobile-map:hover {
 		color: #DAACA1;
@@ -493,9 +497,20 @@ padding: 10px;
 		background-color: #eee;
 
 	}
+	.menu-food {
+		padding: 10px;
+	}
 
 	.menu-column {
 		margin: 10px;
+	}
+
+	.event-info {
+		padding: 20px;
+	}
+
+	.small-text {
+		padding: 0;
 	}
 
 }
